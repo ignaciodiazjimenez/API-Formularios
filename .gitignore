@@ -1,0 +1,38 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Base de datos SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Migraciones (excepto __init__.py si quieres controlar versiones de migraciones)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Dependencias descargadas
+*.egg-info/
+*.egg
+*.bak
+
+# Logs y archivos temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+build/
+dist/
